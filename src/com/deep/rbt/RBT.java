@@ -1,11 +1,10 @@
-package RedBlackTree;
+package com.deep.rbt;
 
 import java.util.HashMap;
 import java.util.Map;
 
+import com.deep.rbt.Queue;
 import com.sun.org.apache.xerces.internal.impl.dv.xs.YearDV;
-
-import RedBlackTree.Queue;
 
 public class RBT<Key extends Comparable<Key>, Data> {
 

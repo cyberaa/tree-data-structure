@@ -1,4 +1,4 @@
-package skiplist;
+package com.deep.skiplist;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.Map;
 import java.util.Scanner;
 
-import skiplist.SkipList.Node;
+import com.deep.skiplist.SkipList.Node;
 
 @SuppressWarnings("unchecked")
 public class SkipListMap<K extends Comparable<K>, V> implements SkipList.INodeCreator<K>, IMap<K,V> {

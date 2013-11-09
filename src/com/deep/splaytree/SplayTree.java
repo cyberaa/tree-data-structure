@@ -1,4 +1,4 @@
-package splaytree;
+package com.deep.splaytree;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

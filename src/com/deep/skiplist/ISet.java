@@ -1,4 +1,4 @@
-package skiplist;
+package com.deep.skiplist;
 
 public interface ISet<T> {
 

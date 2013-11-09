@@ -1,4 +1,4 @@
-package avltree;
+package com.deep.avltree;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
