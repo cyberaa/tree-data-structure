@@ -327,7 +327,6 @@ public class SplayTree {
 						sum += value;
 				}else {
 				}
-				System.out.println("Scanning Line "+counter);
 				counter +=1;
 			}
 			double endTime = System.currentTimeMillis();

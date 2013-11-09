@@ -374,7 +374,6 @@ public class AvlTree
 						
 				}else {
 				}
-				System.out.println("Scanning Line "+counter);
 				counter +=1;
 			}
 			double endTime = System.currentTimeMillis();
@@ -391,65 +390,5 @@ public class AvlTree
 			e.printStackTrace();
 		}
 
- /*
-        tree.insert(12632165, 152512323);
-        tree.insert(52324987, 112123323);
-        tree.insert(519898, 1212123323);
-        tree.insert(198912212, 12111423);
-        tree.insert(51231213, 1211233);
-        tree.insert(14521259, 122123343);
-        tree.insert(786779, 15241523);
-        tree.insert(1990829, 112323);
-        tree.insert(1364619, 1212323); 
-        tree.insert(22198733, 12233);
-        tree.insert(213149, 22198733);
-        tree.insert(15123319, 12233);
-        tree.insert(15121239, 22198733);
-        tree.insert(213123149, 22198733);
-        tree.insert(151212339, 12233);
-        tree.insert(1512139, 22198733);
-        
-        System.out.println("The size 0 is: " + tree.size());
-        System.out.println(tree.remove(151239));
-        System.out.println("The size 0 is: " + tree.size());
-        System.out.println(tree.find(14521259));
-        System.out.println("The size 4 is: " + tree.size());
-        System.out.println(tree.find(1364619));
-        System.out.println("The size 5 is: " + tree.size());
-        System.out.println(tree.find(213149));
-        System.out.println("The size 6 is: " + tree.size());
-        
-        System.out.println("******");
-        tree.printTree(tree.root);
-        System.out.println("****");
-        
-        System.out.println("******");
-        System.out.println(tree.findmax().key);
-        System.out.println("****");
-        
-        System.out.println("******");
-        System.out.println(tree.findmin().key);
-        System.out.println("****");
-        
-
-
-        
-
-        System.out.println("******");
-        tree.printTree(tree.root);
-        System.out.println("****");
-       
-        System.out.println("******");
-        tree.removeValues(22198733);
-        System.out.println("****");
-        
-        System.out.println("******");
-        tree.printTree(tree.root);
-        System.out.println("****");
-        
-        System.out.println("The size 0 is: " + tree.size());
-        
-        System.out.println("Empty: " + tree.isEmpty());
-        */
     }
 }
